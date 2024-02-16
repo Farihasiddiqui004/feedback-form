@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>personal details</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        
+        h2, label{
+            color: antiquewhite;
+        }
+        fieldset{
+            padding: 20px;
+            margin: 30px;
+        }
+        input{
+            padding: 5px;
+            margin: 5px 0;
+            width:20pc;
+        }
+        .form-section{
+            text-align: center;
+            margin-top: 50px;
+        }
+        p, b{
+            color:antiquewhite;
+        }
+        button.submit{
+        background-color: darkred;
+    }
+    button{
+        margin-top: 10px;
+        padding: 10px;
+        background-color:rgb(209, 101, 58);
+        border: none;
+        color: antiquewhite;
+        cursor: pointer;
+    }
+    a button{ 
+        margin-right: 10px;
+    }
+        </style>
+</head>
+<body>
+    <div class="container">
+        <div class="form section active" id="page1">
+                <form>
+                    <center>
+                        <br>
+                        <fieldset>
+                            <legend>
+                    <h2>
+                        <b>Personal Details</b>
+                    </h2>
+                    </legend>
+                    <p>
+                        <label for="First name" style="font-weight: bold;">First Name:</label></p>
+                        <p><input type="text" id="firstname" name="first name" placeholder="Enter first name">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="Last name" style="font-weight: bold;">Last Name:</label>
+                    </p>
+                    <p>
+                        <input type="text" id="lastname" name="last name" placeholder="Enter last name">
+                    </p>
+                    <br>
+                    <p>
+                        <label for="CNIC" style="font-weight: bold;">CNIC:</label>
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                        <input type="number" maxlength="1" style="width: 15px;">
+                    </p>
+                    <br>
+                    <p> <label for="social link" style="font-weight: bold;">Social Link:</label>
+                        <select name="social link" id="social link">
+                            <option value disabled selected>Select social media</option>
+                            <option value="Linkedin">LinkedIn</option>
+                            <option value="facebook">Facebook</option>
+                            <option value="twitter">Twitter</option>
+                            <option value="github">Github</option>
+                        </select>
+                    </p>
+                </fieldset>
+                </center>
+            </form>
+           
+                    <br>
+                    <center>
+                       
+                    <a class="button" href="./page1.html"><button>« Back</button></a>
+                    <a href="./page3.html"><button>Next »</button></a>
+                    
+                    </center>
+        </div>
+       
+    </div>
+</body>
+</html>

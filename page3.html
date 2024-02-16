@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>review details</title>
+    <link href="style.css" rel="stylesheet">
+    <style>
+        h2, label{
+            color: antiquewhite;
+        }
+        fieldset{
+            padding: 20px;
+            margin: 25px;
+        }
+        input select{
+            padding: 5px;
+            margin: 5px;
+        }
+        .form-section{
+            text-align: center;
+            margin-top: 50px;
+        }
+        p, b{
+            color:antiquewhite;
+        }
+        button.submit{
+        background-color: darkred;
+    }
+        button{
+        margin-top: 10px;
+        padding: 10px;
+        background-color:rgb(209, 101, 58);
+        border: none;
+        color: antiquewhite;
+        cursor: pointer;
+    }
+    a button{ 
+        margin-right: 10px;
+    }
+        </style>
+    </head>
+</head>
+<body>
+    <div class="container">
+        <div class="form section active" id="page1">
+            <center>
+                <br>
+                <fieldset>
+                    <legend>
+                <h2>
+                    Your Review
+                </h2>
+                </legend>
+                <br>
+                <label>How did you hear about us?</label>
+                <select name="referer" id="hear about">
+                    <option disabled selected value>Select your option</option>
+                    <option value="Google">Google</option>
+                    <option value="social">Social media</option>
+                    <option value="advert">Advertising</option>
+                    <option value="other">Relative</option>
+                    <option value="friend">Friend</option>
+                    <option value="other">Other</option>
+                </select>
+                <br>
+                <br>
+                <b>Would you visit again?</b>
+                <br>
+                <br>
+                <p>
+                <input type="radio" name="yes">Yes
+                <input type="radio" name="no">No
+                <input type="radio" name="may be">May be
+                </p>
+                <br>
+                <br>
+                <b>Comment:</b>
+                <br>
+                <textarea id="Comment" rows="5" cols="10" placeholder=" Write your Comment here" style="height: 45px; width: 240px;"></textarea>
+                <br><br>
+               
+                <input type="file" id="Fileinput" name="file">
+                <br> 
+                <br>
+                <input type="checkbox" checked name="subscribe">
+                <b>Sign me up for Email updates</b>
+                </fieldset>
+                <a href="./page2.html" class="button">
+                    <button>« Back</button>
+                </a>
+                <a href="./page4.html" class="button">
+                    <button type="submit">Submit</button>
+                </a>
+                
+                 
+                
+
+
+            </center>
+        </div>
+        </div>
+    
+</body>
+</html>
